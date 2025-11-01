@@ -1,0 +1,137 @@
+body {
+    background-color: #3e3e3e;
+}
+
+/* Header styles */
+#mainHeader {
+    background-color: #1e1e1e;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+#logo {
+    height: 48px;
+    width: 48px;
+    margin-top: 17.5px;
+    margin-right: 15px;
+}
+
+/* About me section */
+#aboutMe {
+    background-color: #2e2e2e;
+    width: auto;
+    height: auto;
+    padding: 20px 25px;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 8px;
+    color: white;
+    outline: 1px solid #52407c;
+    font-family: Arial, sans-serif;
+}
+
+#aboutMeText {
+    font-size: 24px;
+}
+
+#aboutMeParagraph {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* My Projects section */
+#myProjects {
+    background-color: #2e2e2e;
+    width: auto;
+    height: auto;
+    padding: 20px 25px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 8px;
+    color: white;
+    outline: 1px solid #52407c;
+    font-family: Arial, sans-serif;
+}
+
+#myProjectsText {
+    font-size: 24px;
+}
+
+#myProjectsParagraph {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#myProjectsList {
+    list-style-type: disc;
+    padding-left: 35px;
+}
+
+#myProjectsSeparator {
+    border: none;
+    height: 2px;
+    background-color: #52407c;
+    margin: 40px auto;
+}
+
+#myProjectsHolder {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* New Project box styles */
+#newProject {
+    background-color: #2a2a2a;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px auto;
+    min-width: 300px;
+    flex: 0 0 45%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+}
+
+#newProject:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    background-color: #555; /* slightly lighter on hover */
+}
+
+#newProjectTitle {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #52407c; /* subtle purple underline */
+    padding-bottom: 5px;
+}
+
+#newProjectVideo {
+    width: 75%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #8B5CF6;
+}
